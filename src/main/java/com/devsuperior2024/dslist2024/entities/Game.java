@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 
-@Entity // Essa notation vai cofigurar esta classe Java a uma tabela no banco de dados.
+@Entity // Essa anotation vai cofigurar esta classe Java a uma tabela no banco de dados.
 @Table(name = "tb_game") //Configurando o nome da tabela
 public class Game {
 	
